@@ -53,5 +53,11 @@
     @include font(16, 27);
     text-decoration: none;
     color: $c-dark;
+
+    transition: text-shadow $animation-duration;
+
+    &:hover {
+      text-shadow: 1px 0 10px rgba(0, 83, 181, 0.46);
+    }
   }
 }
